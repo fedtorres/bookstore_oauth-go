@@ -11,7 +11,7 @@ type RestErr struct {
 	Error   string `json:"error"`
 }
 
-func NewError(msg string) error {
+func New(msg string) error {
 	return errors.New(msg)
 }
 
